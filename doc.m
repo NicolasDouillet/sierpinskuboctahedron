@@ -1,32 +1,32 @@
-%% Sierpinski_cuboctahedron
+%% Sierpinskuboctahedron
 %
 % Function to compute, display, and save a Sierpinski
 % cuboctahedron at any iteration number / depth level.
 %
-% Author & support : nicolas.douillet (at) free.fr, 2020.
+% Author & support : nicolas.douillet (at) free.fr, 2022.
 %
 %% Syntax
 %
-% Sierpinski_cuboctahedron;
+% Sierpinskuboctahedron;
 %
-% Sierpinski_cuboctahedron(nb_it);
+% Sierpinskuboctahedron(nb_it);
 %
-% Sierpinski_cuboctahedron(nb_it, option_display);
+% Sierpinskuboctahedron(nb_it, option_display);
 %
-% [V,T] = Sierpinski_cuboctahedron(nb_it, option_display);
+% [V,T] = Sierpinskuboctahedron(nb_it, option_display);
 %
 %% Description
 %
-% Sierpinski_cuboctahedron computes and displays the 3-level / iteration
+% Sierpinskuboctahedron computes and displays the 3-level / iteration
 % Sierpinski cuboctahedron included in the unit sphere.
 %
-% Sierpinski_cuboctahedron(nb_it) computes nb_it depth levels / iterations..
+% Sierpinskuboctahedron(nb_it) computes nb_it depth levels / iterations..
 %
-% Sierpinski_cuboctahedron(nb_it, option_display) displays it when
+% Sierpinskuboctahedron(nb_it, option_display) displays it when
 % option_display is set to logical *true/1 (default), and doesn't
 % when it is set to  logical false/0.
 %
-% [V,T] = Sierpinski_cuboctahedron(nb_it, option_display) stores the resulting
+% [V,T] = Sierpinskuboctahedron(nb_it, option_display) stores the resulting
 % vertex coordinates in the array V, and the triangulation in the array T.
 %
 %% See also
@@ -55,9 +55,9 @@
 %% Example #1
 % Computes and displays the simple Sierpinski cuboctahedron at iteration 3
 
-Sierpinski_cuboctahedron;
+Sierpinskuboctahedron;
 
 %% Example #2
 % Computes, displays, and saves the Sierpinski cuboctahedron at iteration 5
 
-[V,T] = Sierpinski_cuboctahedron(5,true);
+[V,T] = Sierpinskuboctahedron(5,true);
