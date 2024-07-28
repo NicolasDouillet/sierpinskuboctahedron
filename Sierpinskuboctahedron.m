@@ -2,7 +2,7 @@ function [V, T] = Sierpinskuboctahedron(nb_it, option_display)
 %% Sierpinskuboctahedron : function compute, display, and save
 % a Sierpinski cuboctahedron at any iteration number / depth level.
 %
-% Author & support : nicolas.douillet (at) free.fr, 2022.
+% Author : nicolas.douillet9 (at) gmail.com, 2022-2024.
 %
 %
 % Syntax
